@@ -9,7 +9,7 @@ body{
 header{
     margin-top: 30px;
 }
-.container{
+.header-container{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -41,7 +41,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 .banner-text{
     width: 50%;
@@ -85,4 +85,61 @@ header{
     margin-top: 35px;
     width: 400px;
     height: 380px;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto 50px;
+}
+.section-title{
+    text-align: center;
+    margin: 100px 0 30px 0;
+}
+.section-title h1{
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 35px;
+}
+.card-itame{
+    width: 330px;
+    /* background-color: rgb(224, 214, 214); */
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+    border-radius: 5px;
+    /* margin-bottom: 50px; */
+    box-shadow: rgb(239 230 230) 0px 0px 20px 5px;
+}
+.product-title{
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191F;
+    margin:16px 0 8px 0;
+}
+.product-price{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.ratings i{
+    color: #FB8200;
+    font-size: 14px;
+    font-weight: 600;
+}
+.ratings span{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #5E6366;
+}
+.product-discription{
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+    margin-top: 5px;
 }
