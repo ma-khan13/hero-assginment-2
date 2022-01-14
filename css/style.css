@@ -86,6 +86,9 @@ header{
     width: 400px;
     height: 380px;
 }
+main{
+    margin-bottom: 120px;
+}
 .container{
     width: 1100px;
     margin: 0 auto 50px;
@@ -103,6 +106,7 @@ header{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     row-gap: 35px;
+    justify-items: center;
 }
 .card-itame{
     width: 330px;
@@ -142,4 +146,51 @@ header{
     font-weight: 700;
     color: #787885;
     margin-top: 5px;
+}
+.see-more-btn{
+    margin-top: 50px;
+    float: right;
+}
+.see-more-btn a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #E02C6D;
+}
+.footer-content{
+
+    padding: 50px 0;
+    color: palegoldenrod;
+    text-align: center;
+}
+.footer-content h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+}
+footer{
+    background-color:#0A0826;
+}
+.footer-content p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #D9DBE1;
+}
+.social-icon{
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+}
+.social-icon a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    padding: 7px;
+    background-color: #1a173b;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.social-icon i{
+    font-size: 20px;
+    color: #ffffff;
 }
