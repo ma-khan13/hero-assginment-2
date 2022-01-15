@@ -451,3 +451,69 @@ footer{
 .social-icon a:hover i{
     color: var(--footer-color);
 }
+
+@media (max-width:420px) {
+    .nav{
+        display: none;
+    }
+    .logo h1{
+        margin-left: 15px;
+        font-size: 30px;
+    }
+    .banner-area{
+        display: block;
+    }
+    .banner-image{
+        margin-left: 0;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .top-e-commerce{
+        display: none;
+    }
+    .container{
+        width: 90%;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+      .creator{
+        display: block;
+    }
+    .creator-content{
+        width: 90%;
+        margin-left: 15px;
+    }
+}
+@media (min-width:421px) and (max-width:768px){
+    .navbar{
+        display: none;
+    }
+    .banner-area{
+        display: block;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .top-e-commerce{
+        display: none;
+    }
+    .container{
+        width: 90%;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .creator{
+        display: block;
+    }
+    .creator-content{
+        width: 90%;
+        margin-left: 15px;
+    }
+
+}
